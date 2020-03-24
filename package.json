@@ -1,13 +1,16 @@
 {
   "name": "angular-game-pwa",
   "version": "0.0.0",
+  "homepage": "https://mak-maak.github.io/angular-game-pwa",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "private": true,
   "resolutions": {
